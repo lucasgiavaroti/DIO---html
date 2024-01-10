@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto DIO</title>
+  </head>
+  <body>
+    <div id="inicio" class="top-header">
+      <h1>Conhecendo melhor o HTML</h1>
+      <hr />
+      <div class="sumario">
+        <h2>Sumário</h2>
+        <ul>
+          <li><a href="#titulos">Títulos</a></li>
+          <li><a href="#paragrafos">Parágrafo</a></li>
+          <li><a href="#formatacao">Formatação</a></li>
+          <li><a href="#listas">Listas</a></li>
+          <li><a href="#outras">Outras</a></li>
+          <li><a href="#importantes">Importantes</a></li>
+          <li><a href="#referencias">Referências</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="main-content">
+      <div class="titulos-e-paragrafos">
+        <h2 id="titulos">Títulos</h2>
+        <p>
+          <sub><a href="#inicio">Voltar</a></sub>
+        </p>
+        <ul>
+          <li>h1</li>
+          <li>h2</li>
+          <li>h3</li>
+          <li>h4</li>
+          <li>h5</li>
+          <li>h6</li>
+        </ul>
+        <p>
+          As tags de títulos vão do <code>"h1"</code> ao <code>"h6"</code>, com
+          seus níveis semânticos de importância seguindo do mais "importante",
+          respectivamente. O navegador também define o <code>font-size</code>
+          padrão de acordo com a tag.
+        </p>
+        <h2 id="paragrafos">Parágrafo</h2>
+        <sub><a href="#inicio">Voltar</a></sub>
+        <ul>
+          <li>p</li>
+        </ul>
+        <p>
+          A tag <code>p</code> representa um bloco de parágrafo, um texto comum
+          sem muito valor semântico.
+        </p>
+      </div>
+      <hr />
+
+      <div class="formatacao">
+        <h2 id="formatacao">Tags de formatação</h2>
+        <sub><a href="#inicio">Voltar</a></sub>
+        <ul>
+          <li>
+            O elemento <code>mark</code>
+            <mark>destaca uma parte do texto</mark>.
+          </li>
+          <li>
+            O elemento <code>small</code> representa um comentário/print
+            pequeno, podendo ser usado como <small>copyright&copy;</small>.
+          </li>
+          <li>
+            O elemento <code>i</code> representa um bloco, linha ou palavra com
+            o atributo <i>itálico</i>.
+          </li>
+          <li>
+            O elemento <code>u</code> define um "<i>underline</i>"
+            <u>no texto</u>.
+          </li>
+          <li>
+            O elemento <code>strong</code> define uma parte que será marcado
+            como <strong>negrito</strong>.
+          </li>
+        </ul>
+      </div>
+      <hr />
+
+      <div class="listas">
+        <h2 id="listas">Listas</h2>
+        <sub><a href="#inicio">Voltar</a></sub>
+        <p>
+          As listas são dividas entre duas tags, <code>ol</code> e
+          <code>ul</code>, lista ordenada e não ordenada, respectivamente.
+        </p>
+        <ol>
+          Este é um exemplo de lista-ordenada (<code>ol</code>).
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ol>
+        <ul>
+          Este é um exemplo de lista-não-ordenada (<code>ul</code>).
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+        <p>
+          <mark
+            >Importante notar que ambas necessitam da tag <code>li</code> dentro
+            delas.</mark
+          >
+        </p>
+      </div>
+      <hr />
+      <div class="outras-tags">
+        <h2 id="outras">Outras tags importantes</h2>
+        <sub><a href="#inicio">Voltar</a></sub>
+        <ul>
+          <li>
+            A tag <code>a</code> define um <i>hyperlink</i>, link que pode ser
+            para outra página ou até mesmo na
+            <a href="#inicio">própria página</a>.
+          </li>
+          <li>
+            <hr />
+            A tag <code>hr</code> cria uma linha horizontal para representar uma
+            quebra temática entre dois elementos.
+            <hr />
+          </li>
+          <li>
+            A tag <code>sub</code> define um alinhamento horizontal
+            <sub>mais baixo</sub> em relação ao padrão estabelecido pelos
+            browsers.
+          </li>
+          <li>
+            A tag <code>sup</code> define um alinhamento horizontal
+            <sup>mais alto</sup> em relação ao padrão estabelecido pelos
+            browsers.
+          </li>
+          <li>
+            <blockquote
+              cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote"
+            >
+              A tag blokquote indica que o texto incluído é uma longa citação
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <div class="tags-recomendadas">
+        <h2 id="importantes">Novas tags recomendadas</h2>
+        <sub><a href="#inicio">Voltar</a></sub>
+        <ul>
+          <li>
+            A tag <code>del</code> representa uma linha de código que foi
+            <del>excluída do documento</del>, esse elemento é (não
+            necessariamente) renderizado pelos browsers com uma linha entre o
+            texto.
+          </li>
+          <li>
+            A tag <code>abbr</code> representa uma abreviação e opcionalmente
+            fornece uma
+            <abbr title="Essa é uma descrição">descrição</abbr> completa para
+            ela.
+          </li>
+        </ul>
+      </div>
+      <hr />
+    </div>
+    <div class="footer">
+      <h2 id="referencias">Referências</h2>
+      <sub><a href="#inicio">Voltar</a></sub>
+      <ul>
+        <li>
+          <a href="https://dio.me/">DIO - Digital Innovation One</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
